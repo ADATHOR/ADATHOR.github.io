@@ -3750,6 +3750,12 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+  @media (min-width: 320px) and (max-width: 480px) {
+    code#pool-id {
+      display: none;
+    }
+  }
+
 /* CTA */
 
 	#cta .inner {
