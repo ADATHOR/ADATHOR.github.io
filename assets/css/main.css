@@ -3985,7 +3985,7 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: url("../../images/nasa.jpg");
+		background-image: url("../../images/thor-viking-background.png");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
