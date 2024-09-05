@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "THOR",
+    "motivations": "We showed up in the Cardano Ecosystem in 2018, fascinated with Charles’ vision. We are still here, furthering that vision.\nSince the ITN, we have contributed to decentralization, stability, and integrity of the protocol through our stakepool THOR. \nNow as DReps we will in addition actively participate in governance, and with your voting power, contribute to Cardano’s lasting success.\nKnow this, to us, your vote is sacred. Millions of people throughout history has died for the right to vote. And interestingly, still, you may not be able to vote in your current jurisdiction. We are aware of, and acknowledge the tremendous responsibility that comes with an assigned vote, and will treat it accordingly.",
+    "objectives": "Help create a thriving, decentralized, inclusive, secure ecosystem, fair for all.\nVoting on all governance proposals from technical parameters, to treasury spending, to social economic issues.\nUnequivocally, our sentiment reflects conservative treasury spending, while promoting network scalability, interoperability, and growth. All while maintaining protocol health, security and stability. \nIn other words, assure a bright future for Cardano by building a solid foundation for enterprises to thrive.",
+    "paymentAddress": "addr1q87kr3hmmkk9cp6u5l8gz8ttqp53790r3w9l9ezfntd8svd44e6jdf7zrvkerfqaez5x0vxnwdv2vv9txznkkcl6khtsjtmmu6",
+    "qualifications": "Stakepool operator since the ITN (Incentivized Testnet), 2020.\nA team with broad and lengthy experience from many walks of life. Seated in multiple continents, having adopted several cultures, we are uniquely positioned to apply our experience to challenges arising from a revolutionary uncharted venture like Cardano, as we seek Global mass adoption.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "THOR's Website",
+        "uri": "https://TheVikingPool.com"
+      },
+      {
+        "@type": "Identity",
+        "label": "THOR's X",
+        "uri": "https://x.com/Vikings_for_ADA"
+      }
+    ]
+  }
+}
